@@ -1,0 +1,652 @@
+{
+  "pos": 0,
+  "end": 395,
+  "flags": 0,
+  "modifierFlagsCache": 0,
+  "transformFlags": 2229376,
+  "kind": 305,
+  "statements": [
+    {
+      "pos": 0,
+      "end": 58,
+      "flags": 0,
+      "modifierFlagsCache": 0,
+      "transformFlags": 0,
+      "kind": 266,
+      "importClause": {
+        "pos": 6,
+        "end": 27,
+        "flags": 0,
+        "modifierFlagsCache": 0,
+        "transformFlags": 0,
+        "kind": 267,
+        "isTypeOnly": false,
+        "namedBindings": {
+          "pos": 6,
+          "end": 27,
+          "flags": 0,
+          "modifierFlagsCache": 0,
+          "transformFlags": 0,
+          "kind": 269,
+          "elements": [
+            {
+              "pos": 8,
+              "end": 25,
+              "flags": 0,
+              "modifierFlagsCache": 0,
+              "transformFlags": 0,
+              "kind": 270,
+              "isTypeOnly": false,
+              "name": {
+                "pos": 8,
+                "end": 25,
+                "flags": 0,
+                "modifierFlagsCache": 0,
+                "transformFlags": 0,
+                "kind": 79,
+                "escapedText": "createServerHook"
+              }
+            }
+          ]
+        }
+      },
+      "moduleSpecifier": {
+        "pos": 32,
+        "end": 57,
+        "flags": 0,
+        "modifierFlagsCache": 0,
+        "transformFlags": 0,
+        "kind": 10,
+        "text": "./lib/createServerHook",
+        "hasExtendedUnicodeEscape": false
+      }
+    },
+    {
+      "pos": 58,
+      "end": 107,
+      "flags": 0,
+      "modifierFlagsCache": 0,
+      "transformFlags": 0,
+      "kind": 266,
+      "importClause": {
+        "pos": 65,
+        "end": 81,
+        "flags": 0,
+        "modifierFlagsCache": 0,
+        "transformFlags": 0,
+        "kind": 267,
+        "isTypeOnly": false,
+        "namedBindings": {
+          "pos": 65,
+          "end": 81,
+          "flags": 0,
+          "modifierFlagsCache": 0,
+          "transformFlags": 0,
+          "kind": 269,
+          "elements": [
+            {
+              "pos": 67,
+              "end": 79,
+              "flags": 0,
+              "modifierFlagsCache": 0,
+              "transformFlags": 0,
+              "kind": 270,
+              "isTypeOnly": false,
+              "propertyName": {
+                "pos": 67,
+                "end": 71,
+                "flags": 0,
+                "modifierFlagsCache": 0,
+                "transformFlags": 0,
+                "kind": 79,
+                "escapedText": "jsx"
+              },
+              "name": {
+                "pos": 74,
+                "end": 79,
+                "flags": 0,
+                "modifierFlagsCache": 0,
+                "transformFlags": 0,
+                "kind": 79,
+                "escapedText": "_jsx"
+              }
+            }
+          ]
+        }
+      },
+      "moduleSpecifier": {
+        "pos": 86,
+        "end": 106,
+        "flags": 0,
+        "modifierFlagsCache": 0,
+        "transformFlags": 0,
+        "kind": 10,
+        "text": "react/jsx-runtime",
+        "hasExtendedUnicodeEscape": false
+      }
+    },
+    {
+      "pos": 107,
+      "end": 195,
+      "flags": 0,
+      "modifierFlagsCache": 0,
+      "transformFlags": 2229376,
+      "kind": 237,
+      "modifiers": [
+        {
+          "pos": 107,
+          "end": 114,
+          "flags": 0,
+          "modifierFlagsCache": 0,
+          "transformFlags": 0,
+          "kind": 93
+        }
+      ],
+      "declarationList": {
+        "pos": 114,
+        "end": 194,
+        "flags": 2,
+        "modifierFlagsCache": 0,
+        "transformFlags": 2229376,
+        "kind": 255,
+        "declarations": [
+          {
+            "pos": 120,
+            "end": 194,
+            "flags": 0,
+            "modifierFlagsCache": 0,
+            "transformFlags": 1152,
+            "kind": 254,
+            "name": {
+              "pos": 120,
+              "end": 134,
+              "flags": 0,
+              "modifierFlagsCache": 0,
+              "transformFlags": 0,
+              "kind": 79,
+              "escapedText": "useServerCode"
+            },
+            "initializer": {
+              "pos": 136,
+              "end": 194,
+              "flags": 0,
+              "modifierFlagsCache": 0,
+              "transformFlags": 1152,
+              "kind": 208,
+              "expression": {
+                "pos": 136,
+                "end": 153,
+                "flags": 0,
+                "modifierFlagsCache": 0,
+                "transformFlags": 0,
+                "kind": 79,
+                "escapedText": "createServerHook"
+              },
+              "arguments": [
+                {
+                  "pos": 154,
+                  "end": 193,
+                  "flags": 0,
+                  "modifierFlagsCache": 0,
+                  "transformFlags": 2098304,
+                  "kind": 214,
+                  "parameters": [
+                    {
+                      "pos": 155,
+                      "end": 159,
+                      "flags": 0,
+                      "modifierFlagsCache": 0,
+                      "transformFlags": 0,
+                      "kind": 164,
+                      "name": {
+                        "pos": 155,
+                        "end": 159,
+                        "flags": 0,
+                        "modifierFlagsCache": 0,
+                        "transformFlags": 0,
+                        "kind": 79,
+                        "escapedText": "name"
+                      }
+                    }
+                  ],
+                  "body": {
+                    "pos": 163,
+                    "end": 193,
+                    "flags": 0,
+                    "modifierFlagsCache": 0,
+                    "transformFlags": 2098304,
+                    "kind": 235,
+                    "statements": [
+                      {
+                        "pos": 165,
+                        "end": 191,
+                        "flags": 0,
+                        "modifierFlagsCache": 0,
+                        "transformFlags": 2098304,
+                        "kind": 247,
+                        "expression": {
+                          "pos": 174,
+                          "end": 190,
+                          "flags": 0,
+                          "modifierFlagsCache": 0,
+                          "transformFlags": 1024,
+                          "kind": 223,
+                          "head": {
+                            "pos": 174,
+                            "end": 184,
+                            "flags": 0,
+                            "modifierFlagsCache": 0,
+                            "transformFlags": 1024,
+                            "kind": 15,
+                            "text": "hello ",
+                            "rawText": "hello ",
+                            "templateFlags": 0
+                          },
+                          "templateSpans": [
+                            {
+                              "pos": 184,
+                              "end": 190,
+                              "flags": 0,
+                              "modifierFlagsCache": 0,
+                              "transformFlags": 1024,
+                              "kind": 233,
+                              "expression": {
+                                "pos": 184,
+                                "end": 188,
+                                "flags": 0,
+                                "modifierFlagsCache": 0,
+                                "transformFlags": 0,
+                                "kind": 79,
+                                "escapedText": "name"
+                              },
+                              "literal": {
+                                "pos": 188,
+                                "end": 190,
+                                "flags": 0,
+                                "modifierFlagsCache": 0,
+                                "transformFlags": 1024,
+                                "kind": 17,
+                                "text": "",
+                                "rawText": "",
+                                "templateFlags": 0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "multiLine": true
+                  },
+                  "equalsGreaterThanToken": {
+                    "pos": 160,
+                    "end": 163,
+                    "flags": 0,
+                    "modifierFlagsCache": 0,
+                    "transformFlags": 0,
+                    "kind": 38
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "pos": 195,
+      "end": 394,
+      "flags": 0,
+      "modifierFlagsCache": 0,
+      "transformFlags": 2229376,
+      "kind": 237,
+      "modifiers": [
+        {
+          "pos": 195,
+          "end": 202,
+          "flags": 0,
+          "modifierFlagsCache": 0,
+          "transformFlags": 0,
+          "kind": 93
+        }
+      ],
+      "declarationList": {
+        "pos": 202,
+        "end": 393,
+        "flags": 2,
+        "modifierFlagsCache": 0,
+        "transformFlags": 2229376,
+        "kind": 255,
+        "declarations": [
+          {
+            "pos": 208,
+            "end": 393,
+            "flags": 0,
+            "modifierFlagsCache": 0,
+            "transformFlags": 1152,
+            "kind": 254,
+            "name": {
+              "pos": 208,
+              "end": 212,
+              "flags": 0,
+              "modifierFlagsCache": 0,
+              "transformFlags": 0,
+              "kind": 79,
+              "escapedText": "App"
+            },
+            "initializer": {
+              "pos": 214,
+              "end": 393,
+              "flags": 0,
+              "modifierFlagsCache": 0,
+              "transformFlags": 2229376,
+              "kind": 214,
+              "parameters": [],
+              "body": {
+                "pos": 220,
+                "end": 393,
+                "flags": 0,
+                "modifierFlagsCache": 0,
+                "transformFlags": 2229376,
+                "kind": 235,
+                "statements": [
+                  {
+                    "pos": 222,
+                    "end": 264,
+                    "flags": 0,
+                    "modifierFlagsCache": 0,
+                    "transformFlags": 2229248,
+                    "kind": 237,
+                    "declarationList": {
+                      "pos": 222,
+                      "end": 263,
+                      "flags": 2,
+                      "modifierFlagsCache": 0,
+                      "transformFlags": 2491392,
+                      "kind": 255,
+                      "declarations": [
+                        {
+                          "pos": 230,
+                          "end": 263,
+                          "flags": 0,
+                          "modifierFlagsCache": 0,
+                          "transformFlags": 263168,
+                          "kind": 254,
+                          "name": {
+                            "pos": 230,
+                            "end": 245,
+                            "flags": 0,
+                            "modifierFlagsCache": 0,
+                            "transformFlags": 263168,
+                            "kind": 201,
+                            "elements": [
+                              {
+                                "pos": 232,
+                                "end": 241,
+                                "flags": 0,
+                                "modifierFlagsCache": 0,
+                                "transformFlags": 1024,
+                                "kind": 203,
+                                "name": {
+                                  "pos": 232,
+                                  "end": 241,
+                                  "flags": 0,
+                                  "modifierFlagsCache": 0,
+                                  "transformFlags": 0,
+                                  "kind": 79,
+                                  "escapedText": "data"
+                                }
+                              }
+                            ]
+                          },
+                          "initializer": {
+                            "pos": 247,
+                            "end": 263,
+                            "flags": 0,
+                            "modifierFlagsCache": 0,
+                            "transformFlags": 0,
+                            "kind": 208,
+                            "expression": {
+                              "pos": 247,
+                              "end": 261,
+                              "flags": 0,
+                              "modifierFlagsCache": 0,
+                              "transformFlags": 0,
+                              "kind": 79,
+                              "escapedText": "useServerCode"
+                            },
+                            "arguments": []
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "pos": 264,
+                    "end": 391,
+                    "flags": 0,
+                    "modifierFlagsCache": 0,
+                    "transformFlags": 2097280,
+                    "kind": 247,
+                    "expression": {
+                      "pos": 273,
+                      "end": 390,
+                      "flags": 0,
+                      "modifierFlagsCache": 0,
+                      "transformFlags": 0,
+                      "kind": 208,
+                      "expression": {
+                        "pos": 273,
+                        "end": 294,
+                        "flags": 0,
+                        "modifierFlagsCache": 0,
+                        "transformFlags": 0,
+                        "kind": 79,
+                        "escapedText": "_jsx"
+                      },
+                      "arguments": [
+                        {
+                          "pos": 295,
+                          "end": 300,
+                          "flags": 0,
+                          "modifierFlagsCache": 0,
+                          "transformFlags": 0,
+                          "kind": 10,
+                          "text": "div",
+                          "hasExtendedUnicodeEscape": false
+                        },
+                        {
+                          "pos": 301,
+                          "end": 389,
+                          "flags": 0,
+                          "modifierFlagsCache": 0,
+                          "transformFlags": 0,
+                          "kind": 205,
+                          "properties": [
+                            {
+                              "pos": 303,
+                              "end": 385,
+                              "flags": 0,
+                              "modifierFlagsCache": 0,
+                              "transformFlags": 0,
+                              "kind": 296,
+                              "name": {
+                                "pos": 303,
+                                "end": 316,
+                                "flags": 0,
+                                "modifierFlagsCache": 0,
+                                "transformFlags": 0,
+                                "kind": 79,
+                                "escapedText": "children"
+                              },
+                              "initializer": {
+                                "pos": 317,
+                                "end": 385,
+                                "flags": 0,
+                                "modifierFlagsCache": 0,
+                                "transformFlags": 0,
+                                "kind": 208,
+                                "expression": {
+                                  "pos": 317,
+                                  "end": 338,
+                                  "flags": 0,
+                                  "modifierFlagsCache": 0,
+                                  "transformFlags": 0,
+                                  "kind": 79,
+                                  "escapedText": "_jsx"
+                                },
+                                "arguments": [
+                                  {
+                                    "pos": 339,
+                                    "end": 343,
+                                    "flags": 0,
+                                    "modifierFlagsCache": 0,
+                                    "transformFlags": 0,
+                                    "kind": 10,
+                                    "text": "h1",
+                                    "hasExtendedUnicodeEscape": false
+                                  },
+                                  {
+                                    "pos": 344,
+                                    "end": 384,
+                                    "flags": 0,
+                                    "modifierFlagsCache": 0,
+                                    "transformFlags": 0,
+                                    "kind": 205,
+                                    "properties": [
+                                      {
+                                        "pos": 346,
+                                        "end": 378,
+                                        "flags": 0,
+                                        "modifierFlagsCache": 0,
+                                        "transformFlags": 0,
+                                        "kind": 296,
+                                        "name": {
+                                          "pos": 346,
+                                          "end": 361,
+                                          "flags": 0,
+                                          "modifierFlagsCache": 0,
+                                          "transformFlags": 0,
+                                          "kind": 79,
+                                          "escapedText": "children"
+                                        },
+                                        "initializer": {
+                                          "pos": 362,
+                                          "end": 378,
+                                          "flags": 0,
+                                          "modifierFlagsCache": 0,
+                                          "transformFlags": 0,
+                                          "kind": 10,
+                                          "text": "Hello, world!",
+                                          "hasExtendedUnicodeEscape": false
+                                        }
+                                      }
+                                    ],
+                                    "multiLine": true
+                                  }
+                                ]
+                              }
+                            }
+                          ],
+                          "multiLine": true
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "multiLine": true
+              },
+              "equalsGreaterThanToken": {
+                "pos": 217,
+                "end": 220,
+                "flags": 0,
+                "modifierFlagsCache": 0,
+                "transformFlags": 0,
+                "kind": 38
+              }
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "endOfFileToken": {
+    "pos": 394,
+    "end": 395,
+    "flags": 0,
+    "modifierFlagsCache": 0,
+    "transformFlags": 0,
+    "kind": 1
+  },
+  "fileName": "/home/deep/Code/fullstack-poc-app/src/App.tsx",
+  "text": "import { createServerHook } from \"./lib/createServerHook\";\nimport { jsx as _jsx } from \"react/jsx-runtime\";\nexport const useServerCode = createServerHook((name) => {\n  return `hello ${name}`;\n});\nexport const App = () => {\n  const {\n    data\n  } = useServerCode();\n  return /* @__PURE__ */ _jsx(\"div\", {\n    children: /* @__PURE__ */ _jsx(\"h1\", {\n      children: \"Hello, world!\"\n    })\n  });\n};\n",
+  "languageVersion": 99,
+  "languageVariant": 1,
+  "scriptKind": 4,
+  "isDeclarationFile": false,
+  "hasNoDefaultLib": false,
+  "bindDiagnostics": [],
+  "externalModuleIndicator": {
+    "pos": 0,
+    "end": 58,
+    "flags": 0,
+    "modifierFlagsCache": 0,
+    "transformFlags": 0,
+    "kind": 266,
+    "importClause": {
+      "pos": 6,
+      "end": 27,
+      "flags": 0,
+      "modifierFlagsCache": 0,
+      "transformFlags": 0,
+      "kind": 267,
+      "isTypeOnly": false,
+      "namedBindings": {
+        "pos": 6,
+        "end": 27,
+        "flags": 0,
+        "modifierFlagsCache": 0,
+        "transformFlags": 0,
+        "kind": 269,
+        "elements": [
+          {
+            "pos": 8,
+            "end": 25,
+            "flags": 0,
+            "modifierFlagsCache": 0,
+            "transformFlags": 0,
+            "kind": 270,
+            "isTypeOnly": false,
+            "name": {
+              "pos": 8,
+              "end": 25,
+              "flags": 0,
+              "modifierFlagsCache": 0,
+              "transformFlags": 0,
+              "kind": 79,
+              "escapedText": "createServerHook"
+            }
+          }
+        ]
+      }
+    },
+    "moduleSpecifier": {
+      "pos": 32,
+      "end": 57,
+      "flags": 0,
+      "modifierFlagsCache": 0,
+      "transformFlags": 0,
+      "kind": 10,
+      "text": "./lib/createServerHook",
+      "hasExtendedUnicodeEscape": false
+    }
+  },
+  "pragmas": {},
+  "referencedFiles": [],
+  "typeReferenceDirectives": [],
+  "libReferenceDirectives": [],
+  "amdDependencies": [],
+  "nodeCount": 65,
+  "identifierCount": 14,
+  "identifiers": {},
+  "parseDiagnostics": []
+}
