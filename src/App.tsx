@@ -1,5 +1,5 @@
 import { Context } from "./interfaces";
-import { createServerQuery } from "./lib/createServerHook"
+import { createServerQuery } from "react-stack";
 import { someBackendThing } from "./SomeBackendCode";
 
 const useATableDataQuery = createServerQuery(({ tableId }: { tableId:string }, ctx: Context) => {
