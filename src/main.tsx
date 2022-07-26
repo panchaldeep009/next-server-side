@@ -7,7 +7,13 @@ import { App } from './App'
 axios.defaults.baseURL = 'http://localhost:3000';
 
 function Main() {
-  const queryClient = new QueryClient();
+  const queryClient = new QueryClient({
+    defaultOptions: {
+      queries: {
+        refetchOnWindowFocus: false,
+      }
+    }
+  });
   return (
     <QueryClientProvider client={queryClient}>
       <App />

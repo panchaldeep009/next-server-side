@@ -1,23 +1,22 @@
-import { Context } from "./interfaces";
 import { createServerQuery } from "../lib";
-import { someBackendThing } from "./SomeBackendCode";
+import { TodoList } from "./TodoList";
 
-export const useATableDataQuery = createServerQuery(({ tableId }: { tableId:string }, ctx: Context) => {
-  const someServerSideThing = 'someServerSideThing' || someBackendThing;
+export const useGreeting = createServerQuery((params: { name : string }) => {
   return {
-    name: 'some name on the dfgdg :' + tableId,
+    sentance: 'Hello ' + params.name,
   }
 });
 
 export const App = () => {
-  const { data, isLoading } = useATableDataQuery({ tableId: "1" });
+  const { data, isLoading } = useGreeting({ name: 'World' });
   if (isLoading) {
     return <div>Loading...</div>
   }
 
   return (
     <div>
-      <h1>Hello, {data?.data.name} </h1>
+      <h1>{data?.data.sentance}</h1>
+      <TodoList />
     </div>
   )
 }
